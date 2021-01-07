@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+div {
+  border: 2px solid #ddd;
+
+  width: 300px;
+  height: auto;
+  padding: 60px;
+}
