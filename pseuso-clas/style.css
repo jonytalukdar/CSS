@@ -1,0 +1,26 @@
+h1 {
+  color: goldenrod;
+}
+h1:hover {
+  color: cyan;
+  font-size: 30px;
+  background-color: blue;
+}
+
+input:focus {
+  color: red;
+  font-size: 30px;
+}
+
+ul li:first-child {
+  color: red;
+  font-size: 40px;
+}
+
+ul li:nth-child(odd) {
+  color: blue;
+}
+
+h1::before {
+  content: 'hello';
+}
