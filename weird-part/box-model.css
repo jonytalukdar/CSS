@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* box-sizing: content-box; */
 }
 
 body {
@@ -8,8 +9,8 @@ body {
 
 div {
   border: 2px solid #ddd;
-
+  background-color: #ddd;
   width: 300px;
   height: auto;
-  padding: 60px;
+  padding: 20px;
 }
